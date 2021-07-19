@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816630151369",
+    "project_id": "swift-app-fd91f",
+    "storage_bucket": "swift-app-fd91f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816630151369:android:2d643502d29bf973117518",
+        "android_client_info": {
+          "package_name": "com.example.swiftapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816630151369-4ll7ftldl17bc8fgkp6ssgur0l9hdbdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIHqybmL5YRHTKdZwzInwRVl7Z69wOF7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816630151369-4ll7ftldl17bc8fgkp6ssgur0l9hdbdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

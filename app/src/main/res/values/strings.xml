@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="swift_response">SWIFT RESPONSE</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="register">Register</string>
+    <string name="already_registered_login_here">Already Registered ? Login Here</string>
+    <string name="app_label">Swift Response</string>
+    <string name="new_here_create_account">New Here? Create Account</string>
+    <string name="login">LOGIN</string>
+    <string name="login_text">Login</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_to_dashboard">Welcome to Dashboard!</string>
+</resources>
