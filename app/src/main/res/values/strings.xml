@@ -15,4 +15,12 @@
     <string name="logout">Logout</string>
     <string name="welcome_to_dashboard">Welcome to Dashboard!</string>
     <string name="forgot_password">Forgot Password ?</string>
+
+    <string name="emergency_services">EMERGENCY SERVICES</string>
+    <string name="fire">FIRE</string>
+    <string name="police">POLICE</string>
+    <string name="ambulance">AMBULANCE</string>
+    <string name="road_accidents">ROAD ACCIDENTS</string>
+    <string name="floods">FLOODS</string>
+
 </resources>
