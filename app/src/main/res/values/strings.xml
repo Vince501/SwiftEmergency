@@ -15,19 +15,4 @@
     <string name="logout">Logout</string>
     <string name="welcome_to_dashboard">Welcome to Dashboard!</string>
     <string name="forgot_password">Forgot Password ?</string>
-    <string name="your_nameMain">Your Name</string>
-    <string name="your_email_addressMain">Your Email Address</string>
-    <string name="phone_numberMain">Phone Number</string>
-    <string name="email_not_verifiedMain">Email Not Verified !</string>
-    <string name="verify_nowMain">Verify Now</string>
-    <string name="reset_passwordMain">Reset Password</string>
-    <string name="phoneMain">Phone</string>
-    <string name="change_profileMain">Change Profile</string>
-    <string name="emailMain">Email</string>
-    <string name="full_nameMain">Full Name</string>
-    <string name="logoutMain">Logout</string>
-    <string name="profile_imageIcon">profile image</string>
-    <string name="person_icon">person icon</string>
-    <string name="email_icon">email icon</string>
-    <string name="phone_icon">phone icon</string>
 </resources>
