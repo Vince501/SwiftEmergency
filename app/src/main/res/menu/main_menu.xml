@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home_nav" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/location_icon"
+            android:title="@string/location_nav" />
+
+        <item
+            android:id="@+id/nav_contactsEme"
+            android:icon="@drawable/ic_local_phone_black_24"
+            android:title="@string/emergency_contacts" />
+
+    </group>
+
+
+    <item android:title="@string/profile_menu">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login_icon"
+                    android:title="@string/login_nav" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_person_black_24"
+                    android:title="@string/profile_nav" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/logout_nav" />
+            </group>
+
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="@string/communicate_menu">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share_icon"
+                    android:title="@string/share_nav" />
+            </group>
+        </menu>
+
+
+    </item>
+
+</menu>

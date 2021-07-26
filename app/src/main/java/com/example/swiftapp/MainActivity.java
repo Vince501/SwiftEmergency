@@ -55,16 +55,23 @@ public class MainActivity extends AppCompatActivity {
         userId = Objects.requireNonNull(fAuth.getCurrentUser()).getUid();
         user = fAuth.getCurrentUser();
 
-        if (!user.isEmailVerified()) {
-            verifyMsg.setVisibility(View.VISIBLE);
-            resendCode.setVisibility(View.VISIBLE);
+        if (user.isEmailVerified()) {
+            verifyMsg.setVisibility(View.INVISIBLE);
+            resendCode.setVisibility(View.INVISIBLE);
 
             resendCode.setOnClickListener(v -> user.sendEmailVerification().addOnSuccessListener(aVoid -> Toast.makeText(v.getContext(), "Verification Email Has been Sent.", Toast.LENGTH_SHORT).show()).addOnFailureListener(e -> Log.d("tag", "onFailure: Email not sent " + e.getMessage())));
+        } else {
+            if (!user.isEmailVerified()) {
+                verifyMsg.setVisibility(View.VISIBLE);
+                resendCode.setVisibility(View.VISIBLE);
+
+                resendCode.setOnClickListener(v -> user.sendEmailVerification().addOnSuccessListener(aVoid -> Toast.makeText(v.getContext(), "Verification Email Has been Sent.", Toast.LENGTH_SHORT).show()).addOnFailureListener(e -> Log.d("tag", "onFailure: Email not sent " + e.getMessage())));
+            }
         }
 
 
         DocumentReference documentReference = fStore.collection("users").document(userId);
-        documentReference.addSnapshotListener(this, (documentSnapshot, e) -> {
+        documentReference.addSnapshotListener(MainActivity.this, (documentSnapshot, e) -> {
             assert documentSnapshot != null;
             if (documentSnapshot.exists()) {
                 phone.setText(documentSnapshot.getString("phone"));
